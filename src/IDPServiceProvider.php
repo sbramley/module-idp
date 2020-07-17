@@ -1,6 +1,6 @@
 <?php
 
-namespace TMS\Common;
+namespace TMS\IDP;
 
 use Illuminate\Support\ServiceProvider;
 use TMS\Common\Commands\FooCommand;
