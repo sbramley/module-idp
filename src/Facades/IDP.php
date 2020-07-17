@@ -1,0 +1,18 @@
+<?php
+
+namespace TMS\IDP\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class IDP extends Facade
+{
+    /**
+     * Get the registered name of the component.
+     *
+     * @return string
+     */
+    protected static function getFacadeAccessor()
+    {
+        return 'idp';
+    }
+}
