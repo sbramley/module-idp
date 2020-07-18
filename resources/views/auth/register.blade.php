@@ -1,4 +1,4 @@
-@extends('vendor.timeless.module-wai.resources.views.layouts.app')
+@extends('TMS::WI.layouts.app')
 
 @section('content')
 <div class="container">
