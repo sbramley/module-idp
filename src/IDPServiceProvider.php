@@ -40,9 +40,9 @@ class IDPServiceProvider extends ServiceProvider
     public function boot()
     {
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', $this->vendorName);
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', $this->vendorName);
+         $this->loadViewsFrom(__DIR__.'/../resources/views', $this->vendorName);
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadRoutesFrom(__DIR__.'/routes.php');
+         $this->loadRoutesFrom(__DIR__.'/../routes/view.php');
 
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
